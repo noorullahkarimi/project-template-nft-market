@@ -1,0 +1,23 @@
+/* css reset  */
+*{padding: 0;margin: 0;}
+/* root  */
+/* other css  */
+.content-all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+header{width: 100%;position: relative;}
+header img{width: 100%;}
+header h1{position: absolute;z-index: 1;top: 50%;bottom:50%;left: 10%;right: 10%;color: white;}
+nav{width: 100%;display: flex;justify-content: space-around;align-items: center;height: 10vh;padding: 10px;background-color:#10273c ;color: white;}
+section{width: 100%;}
+.card{width: 100%;display: flex;justify-content: space-around;align-items: center;flex-direction: row;}
+.img-card{width: 50%;}
+.img-card-img{width: 100%;}
+.content-card{width: 50%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+.btn-bid{height: 40px;width: 8rem;margin: 10px;background-color: #f05d00;color: white;border-radius: 6px;border: none;}
+footer{background-color: #10273c;color: white;height: 50vh;width: 100%;}
+a{}
